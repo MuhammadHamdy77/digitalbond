@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+#bg-form {
+  min-height: 700px;
+  background: #380a54;
+  background: linear-gradient(to top right,#0b0214,#380a54);
+  overflow-x: hidden;
+  position: relative;
+}
+
+label{
+  font-weight: 600;
+}
+.form-admission{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #fff9;
+  padding: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+.form-errors{
+  width: 100%;
+  margin: 10px 0;
+  background-color: #ff4176;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.modal-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+// Responsive
+@media(max-width: 768px){
+
+  #bg-form {
+    height: 1000px;
+  }
+  }
